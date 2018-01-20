@@ -1,0 +1,146 @@
+.headDiv {
+	    position: fixed;
+	    /*¹Ì¶¨¶¨Î»*/
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 40px;
+	    border: 0px;
+	    z-index:100;
+	  }
+	
+	.item-nav-bar {
+	    width:100%;
+		display: inline-block;
+		background-color: #ffffff;
+		padding-top:10px;
+		border-bottom:solid 1px #f8f8f8;
+		
+	}
+	
+	.item-nav-bar ul {
+		text-align:center;
+		list-style-type:none;
+		margin-left:-10px;
+	}
+
+.item-nav-bar ul li {
+	display: inline-block;
+	
+}
+
+.item-nav-bar ul li a {
+	float:left;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: solid 1px #ff8000;
+}
+
+.ref-btn {
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: solid 1px #ff8000;
+}
+
+.item-nav-bar a:hover {
+    background-color: #FF9900;
+    color:#FFFFCC;
+}
+
+.item-nav-bar .active {
+    background-color: #ff8000;
+    color:#ffffff;
+}
+
+  .content-area {
+  	margin-top:0px;
+  }
+  
+  .controlbar {
+	    position: fixed;
+	    bottom: 0;
+	    left: 0;
+	    z-index: 999;
+	    width: 100%;
+	    height: 50px;
+	    border-top: 1px solid #E1E4E6;
+	    background: #fff;
+    }
+	
+	.controlbar ul li span:not(.badge) {
+		    display: block;
+		    transform: scale(.8333);
+   }
+   
+   .controlbar ul li a {
+	    color: #999;
+	}
+	
+	a, a:visited {
+	    color: #4fb1f7;
+	    cursor: pointer;
+	}
+	a {
+	    background-color: transparent;
+	    -webkit-text-decoration-skip: objects;
+	}
+	a {
+	    color: #337ab7;
+	    text-decoration: none;
+	}
+	
+	.controlbar ul {
+	    display: flex;
+	}
+	ol, ul {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+	
+	.controlbar ul li {
+    font-size: 18px;
+	}
+	.controlbar ul li {
+	    position: relative;
+	    flex: 1;
+	    color: #999;
+	    font-size: 12px;
+	}
+	.breadcrumbs, .controlbar ul li, .icon-inverse, .page-control, a.load-more {
+	    text-align: center;
+	}
+	ul li {
+	    line-height: 24px;
+	    word-wrap: break-word;
+	}
+	
+	.controlbar ul li i {
+	    display: block;
+	    margin-top: 8px;
+	    font-size: 18px;
+	}
+		
+     .controlbar ul li {
+	    font-size: 18px;
+	}
+	
+	.controlbar ul li.active a {
+	    color: #4fb1f7;
+	}

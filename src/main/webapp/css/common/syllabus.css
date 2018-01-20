@@ -1,0 +1,23 @@
+table {  
+  font-size:12px;
+  width: 100%;  
+  border-collapse: collapse;
+} 
+tr:nth-of-type(even) {  
+  background: #e5f1f4;  
+} 
+tr:nth-of-type(odd) {  
+  background: #f8fbfc;  
+} 
+
+th {  
+  background: #328aa4;  
+  color: #fff;  
+  font-weight: bold;  
+} 
+td, th {  
+  padding: 6px;  
+  border: 1px solid #fff;  
+  text-align: center;  
+}
+
